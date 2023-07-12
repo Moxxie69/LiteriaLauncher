@@ -1,45 +1,36 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
-<h1 align="center">Helios Launcher</h1>
+<h1 align="center">Literia Launcher</h1>
 
-<em><h5 align="center">(formerly Electron Launcher)</h5></em>
+<p align="center">Un petit (ou pas) launcher fait pour aller sur le serveur Literia. Vous n'aurez même pas besoin d'installer Java ou d'autres mods, on s'occupe de ça pour vous.</p>
 
-[<p align="center"><img src="https://img.shields.io/github/actions/workflow/status/dscalzi/HeliosLauncher/build.yml?branch=master&style=for-the-badge" alt="gh actions">](https://github.com/dscalzi/HeliosLauncher/actions) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="winter-is-coming"></p>
+## Fonctionnalités
 
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
+* 🔒 Les comptes.
+  * Ajouter plusieurs comptes et switcher rapidement entre eux.
+  * Les authentification Microsoft (OAuth 2.0) + Mojang sont complétement supportées.
+  * Les informations de connexion ne sont pas stockés et sont envoyées directement à Mojang ou Microsoft.
+* 📂 Les assets.
+  * Recevoir les mises à jour dès qu'elles sont disponibles.
+  * Les fichiers sont validés au lancement, les fichiers non valides seront supprimés/re-téléchargés.
+* ☕ **Java**
+  * Si vous n'avez pas la bonne version de Java, on installera la bonne *pour vous*.
+  * Vous n'avez pas besoin d'installer Java pour le launcher.
+* ⚙️ Paramètres.
+  * Les paramètres ont été fait le plus intuitivement possible, pour que vous n'ayez pas besoin d'un BAC+10 pour jouer.
+* Infos du serveur.
+  * Vous pouvez voir si le serveur est en ligne et le nombre de joueurs.
+* Mises à jour automatiques, et oui, le launcher se met à jour tout seul !
 
-![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
-![Screenshot 2](https://i.imgur.com/x3B34n1.png)
+PAS ENCORE FAIT:
+* 📰 Système de news.
 
-## Features
+Cette liste n'est pas complète, vous pouvez aller voir par vous même le launcher.
 
-* 🔒 Full account management.
-  * Add multiple accounts and easily switch between them.
-  * Microsoft (OAuth 2.0) + Mojang (Yggdrasil) authentication fully supported.
-  * Credentials are never stored and transmitted directly to Mojang.
-* 📂 Efficient asset management.
-  * Receive client updates as soon as we release them.
-  * Files are validated before launch. Corrupt or incorrect files will be redownloaded.
-* ☕ **Automatic Java validation.**
-  * If you have an incompatible version of Java installed, we'll install the right one *for you*.
-  * You do not need to have Java installed to run the launcher.
-* 📰 News feed natively built into the launcher.
-* ⚙️ Intuitive settings management, including a Java control panel.
-* Supports all of our servers.
-  * Switch between server configurations with ease.
-  * View the player count of the selected server.
-* Automatic updates. That's right, the launcher updates itself.
-*  View the status of Mojang's services.
 
-This is not an exhaustive list. Download and install the launcher to gauge all it can do!
+## Téléchargements
 
-#### Need Help? [Check the wiki.][wiki]
-
-#### Like the project? Leave a ⭐ star on the repository!
-
-## Downloads
-
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
+Vous pouvez le télécharger depuis les [Releases](https://github.com/NomaPech/HeliosLauncher/releases)
 
 #### Latest Release
 
