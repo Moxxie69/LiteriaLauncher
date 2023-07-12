@@ -38,7 +38,7 @@ Vous pouvez le télécharger depuis les [Releases](https://github.com/Moxxie69/L
 
 **Plateformes prises en charge**
 
-Si vous téléchargez le launcher depuis les [Releases](https://github.com/dscalzi/HeliosLauncher/releases), selectionnez l'installateur pour votre plateforme.
+Si vous téléchargez le launcher depuis les [Releases](https://github.com/Moxxie69/LiteriaLauncher/releases), selectionnez l'installateur pour votre plateforme.
 
 | Platforme | fichier |
 | --------- | ------- |
