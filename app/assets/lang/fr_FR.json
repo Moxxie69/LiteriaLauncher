@@ -1,0 +1,50 @@
+{
+    "html": {
+        "avatarOverlay": "Modiffier"
+    },
+    "js": {
+        "login": {
+            "error": {
+                "invalidValue": "* Valeur Invalide",
+                "requiredValue": "* Requis",
+                "userMigrated": {
+                    "title": "Erreur durant la connexion:<br>Identifiants invalides",
+                    "desc": "Vous utilisez un compte qui a été migré, utilisez une e-mail au lieu du nom d'utilisateur"
+                },
+                "invalidCredentials": {
+                    "title": "Erreur durant la connexion:<br>Identifiants invalides",
+                    "desc": "L'e-mail ou le MDP est invalide. Veuillez reéssayer."
+                },
+                "rateLimit": {
+                    "title": "Erreur durant la connexion:<br>Trop d'essais",
+                    "desc": "Il y a eu trop de tentatives de connexion sur votre compte, reéssayez plus tard."
+                },
+                "noInternet": {
+                    "title": "Erreur durant la connexion:<br>Pas d'internet",
+                    "desc": "Vous devez être connecté à internet pour faire cela, connectez vous et reéssayez"
+                },
+                "authDown": {
+                    "title": "Erreur durant la connexion:<br>Serveurs hors-ligne",
+                    "desc": "Les serveurs d'authentification sont hors-ligne, reéssayez plus tard. Vous pouvez voir les status sur <a href=\"https://help.mojang.com/\">Le portail d'aide</a>."
+                },
+                "notPaid": {
+                    "title": "Erreur durant la connexion:<br>Jeu non acheté",
+                    "desc": "Le compte au quel vous essayez de vous connecter n'a pas acheté Minecraft, vous pouvez l'acheter sur <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                },
+                "unknown": {
+                    "title": "Erreur durant la connexion:<br>Erreur inconnue",
+                    "desc": "On ne sais pas qu'est-ce qu'il s'est passé mais il y a un problème !"
+                }
+            },
+            "login": "CONNEXION",
+            "loggingIn": "CONNEXION..",
+            "success": "SUCCES",
+            "tryAgain": "Reéssayer"
+        },
+        "landing": {
+            "launch": {
+                "pleaseWait": "Veuillez patienter.."
+            }
+        }
+    }
+}

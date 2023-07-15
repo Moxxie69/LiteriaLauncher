@@ -115,9 +115,9 @@ function showFatalStartupError(){
         $('#loadingContainer').fadeOut(250, () => {
             document.getElementById('overlayContainer').style.background = 'none'
             setOverlayContent(
-                'Fatal Error: Unable to Load Distribution Index',
-                'A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application.',
-                'Close'
+                'Erreur fatale : Impossible de récuperer les éléments du launcher',
+                'Une connexion n\'a pas pu être établie au serveur qui fournit les fichiers dont le launcher à besoin et une copie locale de ces fichiers n\'ont pas été trouvés<br><br>Ces fichiers donnent au launcher les informations telles que l\'addresse du serveur et les téléchargements des mods. Veuillez vérifier que vous êtes connecté à internet.',
+                'Fermer'
             )
             setOverlayHandler(() => {
                 const window = remote.getCurrentWindow()
@@ -333,10 +333,10 @@ async function validateSelectedAccount(){
             ConfigManager.save()
             const accLen = Object.keys(ConfigManager.getAuthAccounts()).length
             setOverlayContent(
-                'Failed to Refresh Login',
-                `We were unable to refresh the login for <strong>${selectedAcc.displayName}</strong>. Please ${accLen > 0 ? 'select another account or ' : ''} login again.`,
-                'Login',
-                'Select Another Account'
+                'Nous n\'avons pas pu nous connecter.',
+                `Nous n'avons pas pu nous connecter au compte <strong>${selectedAcc.displayName}</strong>. Veuillez ${accLen > 0 ? 'selectionner un autre compte ou ' : ''} vous re-connecter.`,
+                'Re-connexion',
+                'Selectionner un autre compte'
             )
             setOverlayHandler(() => {
 
