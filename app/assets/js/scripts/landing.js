@@ -338,7 +338,7 @@ async function asyncSystemScan(effectiveJavaOptions, launchAfter = true){
                 //$('#overlayDismiss').toggle(false)
                 setOverlayContent(
                     'Java est requis<br>pour le lancement',
-                    `A valid x64 installation of Java ${effectiveJavaOptions.suggestedMajor} is required to launch.<br><br>Please refer to our <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.`,
+                    `Une installation valide de Java ${effectiveJavaOptions.suggestedMajor} est requise pour le lancement..`,
                     'Je comprends',
                     'Retour'
                 )

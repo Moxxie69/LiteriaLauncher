@@ -198,16 +198,7 @@ body, button {
     background-color: #ffde7b;
 }
 
-#frameButtonDarwin_restoredown {
-    background-color: #96e734;
-}
-#frameButtonDarwin_restoredown:hover,
-#frameButtonDarwin_restoredown:focus {
-    background-color: #D6FFA6;
-}
-#frameButtonDarwin_restoredown:active {
-    background-color: #bfff76;
-}
+
 
 /*******************************************************************************
  *                                                                             *
@@ -234,43 +225,6 @@ body, button {
     top: -10%;
     position: relative;
 }
-
-/*
-.cloudDiv {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.cloudTop {
-    height: 50%;
-    width: 100%;
-    background-image: url('../images/cloudTrans.png');
-    animation: clouds1 80s linear infinite;
-    background-size: cover;
-}
-
-.cloudBottom {
-    height: 50%;
-    width: 100%;
-    background-image: url('../images/cloudTrans2.png');
-    animation: clouds2 70s linear infinite;
-    background-size: cover;
-}
-
-@keyframes clouds1 {
-    to {
-        background-position: 200%;
-    }
-}
-@keyframes clouds2 {
-    to {
-        background-position: 230%;
-    }
-}
-*/
 
 #welcomeImageSeal {
     border-radius: 50%;
@@ -747,21 +701,6 @@ body, button {
     }
 }
 
-
-
-/*.spinningCircle {
-    margin-left: 20px;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0);
-    border-top-color: #ffffff;
-    border-right-color: #ffffff;
-    border-left-color: rgba(255, 255, 255, 0.50);
-    border-bottom-color: rgba(255, 255, 255, 0.50);
-    animation: single2 4s infinite linear;
-}
-
 @keyframes single2 {
     0% {
         transform: rotate(0deg);
@@ -859,19 +798,6 @@ body, button {
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
-
-/*
-#login_filter {
-    height: calc(100% - 22px);
-    width: 100%;
-    z-index: 9000;
-    position: absolute;
-    filter: blur(8px) contrast(0.9) brightness(1.0);
-    background: url('./../images/backgrounds/0.jpg') no-repeat center center fixed;
-    transform: scale(1.2);
-    background-size: cover;
-}
-*/
 
 /*******************************************************************************
  *                                                                             *
@@ -2458,18 +2384,18 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     transition: top 2s ease;
     top: 0px;
-    height: 77%;
+    height: 85%;
     display: flex;
 }
 #landingContainer > #upper > #left {
     display: inline-flex;
-    width: 15%;
+    width: 7%;
     height: 100%;
     justify-content: flex-end;
 }
 #landingContainer > #upper > #content {
     display: inline-flex;
-    width: 70%;
+    width: 85%;
     height: 100%;
 }
 #landingContainer > #upper > #right {
@@ -2480,7 +2406,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Lower content container. */
 #landingContainer > #lower {
-    height: 23%;
+    height: 15%;
     display: flex;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
@@ -2497,7 +2423,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     top: 25px;
     display: inline-flex;
-    line-height: 24px;
+    line-height: 50px;
     left: 50px;
 }
 #landingContainer > #lower > #center {
@@ -2505,7 +2431,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 34%;
+    width: 30%;
     display: inline-flex;
     justify-content: center;
 }
@@ -2568,7 +2494,7 @@ input:checked + .toggleSwitchSlider:before {
 /* News article status container (left). */
 #newsStatusContainer {
     width: calc(30% - 60px);
-    height: calc(100% - 30px);
+    height: calc(100% - 40px);
     padding: 15px 15px 15px 45px;
     display: flex;
     flex-direction: column;
@@ -2591,7 +2517,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* News article title styles. */
 #newsArticleTitle {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Avenir Medium';
     color: white;
@@ -2855,21 +2781,19 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Logo image. */
 #image_seal {
-    height: 70px;
+    height: 180px;
     width: auto;
     position: relative;
-    border: 2px solid white;
-    box-sizing: border-box;
-    border-radius: 50%;
 }
 
 /* Logo container styles. */
 #image_seal_container {
     position: relative;
     height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    margin-top: 50px;
+    width: auto;
+    border-radius: 10%;
+    margin-top: 45px;
+    right: 300px;
 }
 
 /* Logo container styles w/ update. */
@@ -2884,7 +2808,7 @@ input:checked + .toggleSwitchSlider:before {
     height: 100%;
     width: 100%;
     top: 0%;
-    left: 0%;
+    right: 0%;
     border-radius: 50%;
     box-shadow: 0 0 15px #43c628;
     animation: glow-grow 4s ease-out infinite;
@@ -2954,9 +2878,9 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 50px;
+    top: 55px;
     align-items: flex-start;
-    height: calc(100% - 50px);
+    height: calc(100% - 55px);
 }
 
 #user_content {
@@ -2969,7 +2893,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* User profile avatar container. */
 #avatarContainer {
-    border-radius: 25%;
+    border-radius: 20%;
     border: 2px solid #cad7e1;
     box-sizing: border-box;
     background: rgba(1, 2, 1, 0.5);
@@ -2993,14 +2917,14 @@ input:checked + .toggleSwitchSlider:before {
     align-items: center;
     transition: 0.25s ease;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background-color: rgba(0, 0, 0, 0.35);
     -webkit-user-select: none;
     border: none;
     cursor: pointer;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 #avatarOverlay:hover,
 #avatarOverlay:focus {
@@ -3012,7 +2936,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* User profile name text. */
 #user_text {
-    font-size: 12px;
+    font-size: 20px;
     min-width: 135px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -3045,13 +2969,13 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 32px;
+    height: 69px;
 }
 
 /* Divider bar between the external and internal icons. */
 .mediaDivider {
     height: 2px;
-    width: 25px;
+    width: 30px;
     background: rgb(255, 255, 255);
     margin: 10px 0px;
 }
@@ -3059,16 +2983,16 @@ input:checked + .toggleSwitchSlider:before {
 /* Social media icon shared styles. */
 .mediaSVG {
     fill: #ffffff;
-    height: 24px;
+    height: 48px;
     transition: 0.25s ease;
     cursor: pointer;
-    height: 24px;
-    width: 50px;
+    height: 48px;
+    width: 60px;
 }
 .mediaSVG:hover,
 .mediaURL:focus .mediaSVG,
 .mediaSVG:active {
-    height: 30px;
+    height: 42px;
 }
 
 /* Social media URL shared styles. */
@@ -3093,12 +3017,12 @@ input:checked + .toggleSwitchSlider:before {
 /* Settings icon colors. */
 #settingsSVG {
     stroke: #ffffff;
-    height: 40px;
+    height: 44px;
 }
 .mediaButton:hover #settingsSVG,
 .mediaButton:focus #settingsSVG,
 .mediaButton:active #settingsSVG {
-    height: 30px;
+    height: 40px;
 }
 
 /* Settings tooltip styles. */
@@ -3144,16 +3068,6 @@ input:checked + .toggleSwitchSlider:before {
     fill: #1b8dd4;
 }
 
-/* Instagram icon colors. */
-#instagramSVG:hover,
-#instagramURL:focus #instagramSVG {
-    fill: url('#instaFill')
-    /*fill: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
-}
-#instagramSVG:active {
-    fill: url('#instaFill')
-}
-
 /* Youtube icon colors. */
 #youtubeSVG:hover,
 #youtubeURL:focus #youtubeSVG {
@@ -3180,7 +3094,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Style for a general label on the bottom of the landing view. */
 .bot_label {
-    font-size: 9px;
+    font-size: 24px;
     letter-spacing: 1px;
     font-weight: bold;
     text-shadow: 0px 0px 0px #bebcbb;
@@ -3188,7 +3102,22 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Divider used on the bottom of the landing view. */
 .bot_divider {
-    height: 25px;
+    height: 45px;
+    width: 2px;
+    background: rgba(107, 105, 105, 0.7);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bot_divider_stats {
+    height: 45px;
+    width: 2px;
+    background: rgba(107, 105, 105, 0.7);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bot_divider_play {
     width: 2px;
     background: rgba(107, 105, 105, 0.7);
     margin-left: 20px;
@@ -3202,13 +3131,13 @@ input:checked + .toggleSwitchSlider:before {
 /* Maintains maximum width on the status bar. */
 #server_status_wrapper {
     display: inline-flex;
-    width: 75px;
+    width: 210px;
 }
 
 /* Span which displays the player count of the selected server. */
 #player_count {
     color: #949494;
-    font-size: 8px;
+    font-size: 15px;
     font-weight: 900;
     text-shadow: 0px 0px 20px #949494;
     margin-left: 10px;
@@ -3223,7 +3152,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Icon which displays the status of the mojang services. */
 #mojang_status_icon {
-    font-size: 30px;
+    font-size: 40px;
     color: #848484;
     margin-left: 15px;
     font-family: 'sans-serif';
@@ -3353,8 +3282,8 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Icon which indicates there is new news. */
 #newsButtonAlert {
-    width: 5px;
-    height: 5px;
+    width: 14px;
+    height: 14px;
     position: absolute;
     border-radius: 50%;
     background: red;
@@ -3364,7 +3293,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Arrow image which floats above the news button. */
 #newsButtonSVG {
-    height: 11px;
+    height: 16px;
     margin-left: -2px;
     transition: 0.25s ease;
 }
@@ -3375,7 +3304,7 @@ input:checked + .toggleSwitchSlider:before {
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 11px;
+    font-size: 16px;
     line-height: 30px;
     display: flex;
     transition: 0.25s ease;
@@ -3388,7 +3317,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Main launch content container. */
 #landingContainer > #lower > #right #launch_content {
     position: relative;
-    top: 25px;
+    top: 19px;
     display: inline-flex;
 }
 
@@ -3400,7 +3329,7 @@ input:checked + .toggleSwitchSlider:before {
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 20px;
+    font-size: 28px;
     padding: 0px;
     transition: 0.25s ease;
     outline: none;
