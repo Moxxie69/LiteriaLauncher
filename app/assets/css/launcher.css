@@ -2946,11 +2946,11 @@ input:checked + .toggleSwitchSlider:before {
 }
 
 /* * *
-* Landing View (Bottom Styles) | Right Content
+* Landing View (Bottom Styles) | left Content
 * * */
 
-/*  Wrapper container for top, right content. */
-#rightContainer {
+/*  Wrapper container for top, left content. */
+#leftContainer {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -2959,7 +2959,6 @@ input:checked + .toggleSwitchSlider:before {
     height: calc(100% - 50px);
 }
 
-/* Right hand user content container. */
 #user_content {
     display: flex;
     align-items: center;
@@ -2970,7 +2969,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* User profile avatar container. */
 #avatarContainer {
-    border-radius: 50%;
+    border-radius: 25%;
     border: 2px solid #cad7e1;
     box-sizing: border-box;
     background: rgba(1, 2, 1, 0.5);
@@ -3019,8 +3018,8 @@ input:checked + .toggleSwitchSlider:before {
     letter-spacing: 1px;
     text-shadow: 0px 0px 20px black;
     position: absolute;
-    right: 95px;
-    text-align: right;
+    left: 95px;
+    text-align: left;
     -webkit-user-select: initial;
 }
 
@@ -3046,13 +3045,13 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 27px;
+    height: 32px;
 }
 
 /* Divider bar between the external and internal icons. */
 .mediaDivider {
-    height: 1px;
-    width: 14px;
+    height: 2px;
+    width: 25px;
     background: rgb(255, 255, 255);
     margin: 10px 0px;
 }
@@ -3060,16 +3059,16 @@ input:checked + .toggleSwitchSlider:before {
 /* Social media icon shared styles. */
 .mediaSVG {
     fill: #ffffff;
-    height: 12px;
+    height: 24px;
     transition: 0.25s ease;
     cursor: pointer;
-    height: 12px;
-    width: 25px;
+    height: 24px;
+    width: 50px;
 }
 .mediaSVG:hover,
 .mediaURL:focus .mediaSVG,
 .mediaSVG:active {
-    height: 20px;
+    height: 30px;
 }
 
 /* Social media URL shared styles. */
@@ -3094,12 +3093,12 @@ input:checked + .toggleSwitchSlider:before {
 /* Settings icon colors. */
 #settingsSVG {
     stroke: #ffffff;
-    height: 15px;
+    height: 40px;
 }
 .mediaButton:hover #settingsSVG,
 .mediaButton:focus #settingsSVG,
 .mediaButton:active #settingsSVG {
-    height: 23px;
+    height: 30px;
 }
 
 /* Settings tooltip styles. */
@@ -3113,7 +3112,7 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 4px;
     position: absolute;
     z-index: 1;
-    right: 130%;
+    left: 130%;
     font-size: 12px;
     line-height: 20px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
@@ -3122,7 +3121,7 @@ input:checked + .toggleSwitchSlider:before {
     content: " ";
     position: absolute;
     top: 50%;
-    left: 100%;
+    right: 100%;
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
