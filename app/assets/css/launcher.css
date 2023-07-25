@@ -3317,7 +3317,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Main launch content container. */
 #landingContainer > #lower > #right #launch_content {
     position: relative;
-    top: 19px;
+    top: 27px;
     display: inline-flex;
 }
 
