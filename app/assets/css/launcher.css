@@ -2889,6 +2889,8 @@ input:checked + .toggleSwitchSlider:before {
     justify-content: center;
     box-sizing: border-box;
     position: relative;
+    top: -275px;
+    right: 150px;
 }
 
 /* User profile avatar container. */
@@ -2972,22 +2974,34 @@ input:checked + .toggleSwitchSlider:before {
     height: 69px;
 }
 
+.mediaContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    top: 41px;
+    right: 25px;
+}
+
 /* Divider bar between the external and internal icons. */
 .mediaDivider {
-    height: 2px;
-    width: 30px;
+    height: 40px;
+    width: 2px;
     background: rgb(255, 255, 255);
-    margin: 10px 0px;
+    margin: 0px 10px;
+    position: relative;
+    right: 155px;
+    top: 56px;
+
 }
 
 /* Social media icon shared styles. */
 .mediaSVG {
     fill: #ffffff;
-    height: 48px;
     transition: 0.25s ease;
     cursor: pointer;
-    height: 48px;
-    width: 60px;
+    height: 25px;
+    width: 25px;
 }
 .mediaSVG:hover,
 .mediaURL:focus .mediaSVG,
