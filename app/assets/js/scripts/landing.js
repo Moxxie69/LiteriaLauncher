@@ -790,13 +790,6 @@ function reloadNews(){
 
 let newsAlertShown = false
 
-/**
- * Show the news alert indicating there is new news.
- */
-function showNewsAlert(){
-    newsAlertShown = true
-    $(newsButtonAlert).fadeIn(250)
-}
 
 /**
  * Initialize News UI. This will load the news and prepare
@@ -865,14 +858,8 @@ function initNews(){
                             }
                         }
 
-                    } else {
-                        isNew = true
-                        showNewsAlert()
                     }
 
-                } else {
-                    isNew = true
-                    showNewsAlert()
                 }
 
                 if(isNew){

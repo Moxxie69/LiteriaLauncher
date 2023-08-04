@@ -2424,7 +2424,7 @@ input:checked + .toggleSwitchSlider:before {
     top: 25px;
     display: inline-flex;
     line-height: 50px;
-    left: 50px;
+    left: 35px;
 }
 #landingContainer > #lower > #center {
     position: relative;
@@ -3281,17 +3281,6 @@ input:checked + .toggleSwitchSlider:before {
     stroke: rgba(255, 255, 255, 0.75);
 }
 
-/* Icon which indicates there is new news. */
-#newsButtonAlert {
-    width: 14px;
-    height: 14px;
-    position: absolute;
-    border-radius: 50%;
-    background: red;
-    right: -1px;
-    top: 50%;
-}
-
 /* Arrow image which floats above the news button. */
 #newsButtonSVG {
     height: 16px;
@@ -3318,6 +3307,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Main launch content container. */
 #landingContainer > #lower > #right #launch_content {
     position: relative;
+    left: 120px;
     top: 14px;
     display: inline-flex;
 }
@@ -3335,6 +3325,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: 0.25s ease;
     outline: none;
 }
+
 #launch_button:hover,
 #launch_button:focus {
     text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
