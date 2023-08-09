@@ -8,8 +8,8 @@
 
 * 🔒 Les comptes.
   * Ajouter plusieurs comptes et switcher rapidement entre eux.
-  * Les authentification Microsoft (OAuth 2.0) + Mojang sont complétement supportées.
-  * Les informations de connexion ne sont pas stockés et sont envoyées directement à Mojang ou Microsoft.
+  * Les authentification Microsoft (OAuth 2.0) sont complétement supportées.
+  * Les informations de connexion ne sont pas stockés et sont envoyées directement à Microsoft.
 * 📂 Les assets.
   * Recevoir les mises à jour dès qu'elles sont disponibles.
   * Les fichiers sont validés au lancement, les fichiers non valides seront supprimés/re-téléchargés.
