@@ -48,7 +48,7 @@ if(!isDev){
                 loggerAutoUpdater.info('Nouvelle MAJ disponible', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/Moxxie69/LiteriaLauncher/releases/download/v${info.version}/Literia-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
+                    info.darwindownload = `https://github.com/Moxxie69/LiteriaLauncher/releases/download/v${info.version}/Literia.Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
                 
