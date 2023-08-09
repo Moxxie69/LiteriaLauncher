@@ -2,9 +2,8 @@ const { DistributionAPI } = require('helios-core/common')
 
 const ConfigManager = require('./configmanager')
 
-// Old WesterosCraft url.
-// exports.REMOTE_DISTRO_URL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
-exports.REMOTE_DISTRO_URL = 'http://208.78.53.11/launcher/distribution.json'
+
+exports.REMOTE_DISTRO_URL = 'http://88.151.197.201/launcher_literia/distribution.json'
 
 const api = new DistributionAPI(
     ConfigManager.getLauncherDirectory(),
