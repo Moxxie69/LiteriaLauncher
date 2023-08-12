@@ -1288,6 +1288,7 @@ const settingsAboutChangelogTitle  = settingsTabAbout.getElementsByClassName('se
 const settingsAboutChangelogText   = settingsTabAbout.getElementsByClassName('settingsChangelogText')[0]
 const settingsAboutChangelogButton = settingsTabAbout.getElementsByClassName('settingsChangelogButton')[0]
 
+
 /**
  * Return whether or not the provided version is a prerelease.
  * 
@@ -1347,6 +1348,7 @@ function populateReleaseNotes(){
                 if(id === version){
                     settingsAboutChangelogTitle.innerHTML = entry.find('title').text()
                     settingsAboutChangelogText.innerHTML = entry.find('content').text()
+                    settingsAboutChangelogButton.href = entry.find('link').attr('href')
                 }
             }
 
